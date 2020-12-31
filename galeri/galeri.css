@@ -1,0 +1,173 @@
+* { 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+	* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+	  background-color: #fff9d7;
+}
+
+
+.active {
+  display: block;
+}
+nav{
+	text-align: center;
+}
+.mainNav{
+	padding-top: 30px;
+	margin: 15px auto;
+	list-style: none;
+}
+.navh{
+	color: #583a0e;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	border-bottom: 2px solid #5c5c5c;
+}
+.nav{
+	color: #583a0e;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+.mainNav{
+	display: none;
+}
+.active {
+  display: block;
+  }
+span{
+	position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: black;
+    font-size: 24px;
+
+}
+
+i{
+	font-size: 9vw;
+	margin: 1vw;
+	color: #569997;
+}
+.active {
+  display: block;
+}
+
+.bawah{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 5vw;
+	grid-gap: 3vw;
+}
+.imji{
+	width: 30%;
+	float: left;
+	padding: 1vw;
+}
+a{
+	text-decoration: none;
+	color: #1b4577;
+
+}
+.title{
+
+	font-size: 4vw;
+	font-family: 'Ubuntu';
+	margin-top: 5vw;
+}
+.tgl{
+	font-size: 2vw;
+	font-family: 'Ubuntu';
+}
+
+.bwh{
+	padding: 2vw;
+	background-color: #a3ccc9;
+	padding-bottom: 11.3vw;
+	border: solid 1px white;
+	border-radius: 1vw;
+}
+ nav{
+	text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+nav, ul, li{
+	display: block;
+}
+ nav{
+	text-align: center;
+}
+.mainNav{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}	
+li{
+	padding-left: 60px;
+	padding-right: 60px; 
+}
+#bar{
+	display: none;
+}
+.nav:hover{
+	border-bottom: 2px solid #5c5c5c;
+}
+i{
+	font-size: 4vw;
+}
+ nav{
+	text-align: center;
+}
+
+.bawah{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-top: 1vw;
+	grid-gap: 3vw;
+}
+.bwh{
+	padding: 1vw;
+	border: solid 1px white;
+	padding-bottom: 6vw;
+	border-radius: 1vw;
+	border: 3px solid #fff9d7;
+	transition: 0.5s;
+}
+.bwh:hover{
+	border: 3px solid #569997;
+}
+
+.imji{
+	width: 40%;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+.title{
+	
+	font-size: 1.6vw;
+	font-family: 'Ubuntu';
+	margin-top: 2vw;
+}
+.tgl{
+	font-size: 1vw;
+	font-family: 'Ubuntu';
+}
+.u{
+	display: none;
+}
