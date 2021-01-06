@@ -3,13 +3,17 @@
     -moz-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body{
-	background-image: url("../image/bg-mobile.png");
+	background-image: url("../image/bgm.png");
 	background-size: cover;
 }
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+.fa {
+	color: #FFFFFF;
+	font-size: 28px;
 }
 .active {
   display: block;
@@ -18,19 +22,23 @@ nav{
 	text-align: center;
 }
 .mainNav{
-	padding-top: 30px;
+	font-size: 16px;
+	padding-top: 25px;
 	margin: 15px auto;
 	list-style: none;
 }
 .navh{
-	color: #583a0e;
+	color: #FFFFFF;
 	text-decoration: none;
 	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
-	border-bottom: 2px solid #5c5c5c;
+	font-weight: 400;
+	-webkit-box-shadow: 0 13px 20px -4px #202967;
+	-moz-box-shadow: 0 13px 20px -4px #202967;
+	box-shadow: 0 13px 20px -4px #202967;
+	border-bottom: 3px solid #FFFFFF ;
 }
 .nav{
-	color: #583a0e;
+	color: #FFFFFF;
 	text-decoration: none;
 	font-family: 'Poppins', sans-serif;
 }
@@ -55,49 +63,44 @@ span{
 	text-align: left;
 	padding-top: 60px;
 }
-.halo{
-	font-size: 60px;
-	font-family: 'Ubuntu', sans-serif;
-	-webkit-text-stroke: 3px #ef4206;
-	color: white;
-	font-weight: bolder;
-}
-.pendaki{
-	font-size: 60px;
-	font-family: 'Ubuntu', sans-serif;
-	color: #ef4206;
-	font-weight: bolder;
-}
 .anak8{
-	margin-left: 26vw;
+	margin-left: 11vw;
 	font-size: 3vw;
 	font-family: 'Poppins', sans-serif;
-	color: #ea5826;
+	color: #FFFFFF;
 	font-weight: 500;
+}
+.pkami {
+	margin-left: 11vw;
 }
 .kami{
 	text-decoration: none;
-	color: #1b4577;
+	color: #FFFFFF;
 	font-size: 3.2vw;
-	font-family: 'Poppins', sans-serif;
+	font-family: verdana;
+	font-style: italic;
 	padding: 8px;
-	border: 3px solid #ffd797;
-	border-radius: 4vw;
-	font-weight: 600;
+	border: 3px solid #FFFFFF;
+	border-radius: 2vw;
+	font-weight: 200;
 	transition: 0.5s;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px -1px 16px 6px rgba(181,81,47,1);
+	-moz-box-shadow: 0px -1px 16px 6px rgba(181,81,47,1);
+	box-shadow: 0px -1px 16px 6px rgba(181,81,47,1);
 }
-.kami:hover{
+/*.kami:hover{
 	text-align: center;
 	color: white;
 	background-color: #ea5826;
-}
+}*/
 .hal{
 	margin-left: 10vw;
 }
 
 @media screen and (min-width: 768px) {
 body{
-	background-image: url("../image/bg.png");
+	background-image: url("../image/bg.png") ;
 	background-size: cover;
 }
 nav, ul, li{
@@ -107,6 +110,9 @@ nav, ul, li{
 	text-align: center;
 }
 .mainNav{
+	font-size: 16px;
+	padding-top: 30px;
+	margin: 15px auto;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
@@ -126,41 +132,29 @@ li{
 .mobile{
 	display: none;
 }
-.halo{
-	padding-top: 40px;
-	font-size: 90px;
-	font-family: 'Ubuntu', sans-serif;
-	-webkit-text-stroke: 5px #ef4206;
-	color: white;
-	font-weight: bolder;
-}
-.pendaki{
-	font-size: 90px;
-	font-family: 'Ubuntu', sans-serif;
-	color: #ef4206;
-	font-weight: bolder;
-	margin-left: 30px;
-}
 .anak8{
-	margin-left: 8vw;
-	color: #ea5826;
-	font-size: 1.3vw;
+	margin-left: .5vw;
+	color: #FFFFFF;
+	font-size: 1.4vw;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 }
 .kami{
 	text-decoration: none;
-	color: #1b4577;
+	color: #FFFFFF;
 	font-size: 1vw;
-	font-family: 'Poppins', sans-serif;
-	padding: 0.6vw;
+	font-family: verdana;
+	font-style: italic;
+	padding: 1vw;
 	padding-left: 1.3vw;
 	padding-right: 1.3vw;
-	border: 3px solid #ffd797;
+	border: 3px solid #FFFFFF;
 	border-radius: 15px;
-	font-weight: 600;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px -1px 16px 6px rgba(181,81,47,1);
+	-moz-box-shadow: 0px -1px 16px 6px rgba(181,81,47,1);
+	box-shadow: 0px -1px 16px 6px rgba(181,81,47,1);
 }
 .nav:hover{
 	border-bottom: 2px solid #5c5c5c;
-}
 }
