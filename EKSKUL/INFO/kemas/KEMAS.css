@@ -4,7 +4,13 @@
 }
 i{
 	font-size: 35px;
-	color: #A0BBBB;
+	color: #28146D;
+}
+#miring {
+	font-size: inherit;
+	font-family: 'Poppins';
+	line-height: inherit;
+	color: #000000;
 }
 .nama{
 margin-left: 18vw;
@@ -14,7 +20,7 @@ p{
 	font-family: 'Poppins';
 }
 .eks{
-	color: #A0BBBB;
+	color: #28146D;
 	font-size: 1.6vw;
 }
 .kul{
@@ -55,22 +61,25 @@ p{
 .proker{
 	font-size: 5vw;
 	line-height: 1.1;
-	color: #A0BBBB;
+	color: #28146D;
+	margin-top: -5vw;
 }
 .isiprok{
 	font-size: 1.5vw;
 	line-height: 2.1;
-	margin-top: 4vw;
+	margin-top: -1vw;
 	margin-left: 5vw;
+	text-align: justify;
 }
 .kegs{
+	margin-top: -5vw;
 	text-align: center;
 	margin-right: 10%;
 	margin-left: 10%;
 }
 .kegi{
 	font-size: 3.6vw;
-	color: #A0BBBB;
+	color: #28146D;
 }
 .atan{
 	font-size: 1.5vw;
@@ -110,5 +119,4 @@ margin-right: 1vw;
 }
 .atan{
 	font-size: 2vw;
-}
 }
