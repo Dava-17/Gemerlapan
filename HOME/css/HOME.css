@@ -111,7 +111,7 @@ span{
   position:absolute;
   left:0;
   top:0;
-  width:440px;
+  width:300px;
   height:850px;
   display:none;
   z-index:9999;
@@ -120,7 +120,8 @@ span{
   text-align: center;
 }
 #boxes #dialog {
-  width:690px; 
+	top: 25% !important;
+  width:90%; 
   height:auto;
   padding: 10px 10px 10px 10px;
   background-color:#ffffff;
